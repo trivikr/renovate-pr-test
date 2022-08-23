@@ -3,9 +3,44 @@
 
 __metadata:
   version: 6
+  cacheKey: 8
+
+"react-devtools-core@npm:^4.25.0":
+  version: 4.25.0
+  resolution: "react-devtools-core@npm:4.25.0"
+  dependencies:
+    shell-quote: ^1.6.1
+    ws: ^7
+  checksum: 68dae4507c46b875936904f2aba0fe1dda1d7b6fb616ac72e438aec29d7c49aeadaaff264cc148d40795075fdb9c736d1dcf5c50dbe40eaae64c7aa24f313e68
+  languageName: node
+  linkType: hard
 
 "renovate-pr-test@workspace:.":
   version: 0.0.0-use.local
   resolution: "renovate-pr-test@workspace:."
+  dependencies:
+    react-devtools-core: ^4.25.0
   languageName: unknown
   linkType: soft
+
+"shell-quote@npm:^1.6.1":
+  version: 1.7.2
+  resolution: "shell-quote@npm:1.7.2"
+  checksum: efad426fb25d8a54d06363f1f45774aa9e195f62f14fa696d542b44bfe418ab41206448b63af18d726c62e099e66d9a3f4f44858b9ea2ce4b794b41b802672d1
+  languageName: node
+  linkType: hard
+
+"ws@npm:^7":
+  version: 7.5.9
+  resolution: "ws@npm:7.5.9"
+  peerDependencies:
+    bufferutil: ^4.0.1
+    utf-8-validate: ^5.0.2
+  peerDependenciesMeta:
+    bufferutil:
+      optional: true
+    utf-8-validate:
+      optional: true
+  checksum: c3c100a181b731f40b7f2fddf004aa023f79d64f489706a28bc23ff88e87f6a64b3c6651fbec3a84a53960b75159574d7a7385709847a62ddb7ad6af76f49138
+  languageName: node
+  linkType: hard
