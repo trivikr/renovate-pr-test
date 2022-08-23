@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/trivikr/renovate-pr-test/issues"
   },
-  "homepage": "https://github.com/trivikr/renovate-pr-test#readme"
+  "homepage": "https://github.com/trivikr/renovate-pr-test#readme",
+  "packageManager": "yarn@3.2.2"
 }
