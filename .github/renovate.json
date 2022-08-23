@@ -1,0 +1,11 @@
+{
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["*"],
+      "enabled": false
+    }
+  ],
+  "vulnerabilityAlerts": {
+    "enabled": true
+  }
+}
